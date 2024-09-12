@@ -9,3 +9,13 @@ FLUSH PRIVILEGES;
 
 3.
 ALTER DATABASE secure_message_service_db CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
+
+tables we might need
+user
+user_verification
+messages -sender,reciever,encrypted messages,timestamp
+
+
+YTD
+online status
+OTP?? if time permits
