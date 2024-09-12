@@ -1,0 +1,6 @@
+<h2>Your Inbox</h2>
+<ul>
+    {% for message in messages %}
+        <li>{{ message.sender }}: {{ message.encrypted_message }}</li>
+    {% endfor %}
+</ul>
